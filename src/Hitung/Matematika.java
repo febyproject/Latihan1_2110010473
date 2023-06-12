@@ -10,7 +10,22 @@ public class Matematika {
         this.bil1 = bil1;
         this.bil2 = bil2;
     }
+    //methode Penjumlahan
     double setPenjumlahan(){
        return bil1 + bil2;
+    }
+    //method pengurangan
+    double setPengurangan(){
+       return bil1 - bil2;
+    }
+    
+    //method perkalian
+    double setPerkalian(){
+       return bil1 * bil2;
+    }
+    
+    //method pembagian
+    double setPembagian(){
+       return bil1 / bil2;
     }
 }
